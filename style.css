@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav__bar1 {
+    background-color: #13ad93;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px 173px;
+}
+
+nav {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 70px;
+    padding: 50px 0;
+    align-items: center;
+}
+
+#bbmc__banner {
+    width: 140px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link--anchor {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    cursor: no-drop;
+    font-weight: 700;
+}
+
+.nav__link {
+    padding: 0 12px;
+}
+
+.donate__banner--container {
+    width: 100%;
+    position: relative;
+}
+
+.donate__banner--img {
+    width: 100%;
+    filter: brightness(90%);
+    position: relative;
+    z-index: 50;
+}
+
+.donate__banner--txt {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    left: 45%;
+    top: 50%;
+    letter-spacing: 3px;
+}
+
+#section__title {
+    padding: 56px 0;
+    width: 100%;
+}
+
+.section__title--txt {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.donate__container {
+    padding: 56px 0;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.txt__box {
+    background-color: #f5eeee;
+    width: 33%;
+    padding: 24px;
+    margin: 16px;
+    text-align: center;
+}
+
+.txt__box--header {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.donation__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.donation__btn {
+    padding: 32px 64px;
+    font-size: 20px;
+    color: white;
+    background-color: #13ad93;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: no-drop;
+}
+
+#footer {
+    background-color: #242424;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container {
+    padding: 56px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__logo {
+    margin-bottom: 48px;
+}
+.footer__logo--img {
+    filter:invert();
+    width: 150px;
+}
+
+.footer__links {
+    display: flex;
+}
+
+.footer__link {
+    margin: 0 16px;
+}
+
+.footer__link--anchor {
+    color: white;
+    text-decoration: none;
+    cursor: no-drop;
+}
